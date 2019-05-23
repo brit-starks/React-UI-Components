@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import './components/CardComponents/Card.css';
-import HeaderContent from './components/HeaderComponents/HeaderContent';
-import Thumbnail from './components/HeaderComponents/ImageThumbnail'
+import HeaderContainer from './components/HeaderComponents/HeaderContainer'
 
 const App = () => {
   return (
@@ -20,9 +19,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p> */}
-
-      <HeaderContent />
-      <Thumbnail />
+      <HeaderContainer />
     </div>
   );
 };
