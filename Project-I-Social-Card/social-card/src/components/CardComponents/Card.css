@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+
+.headerContent {
+	border: 2px solid lightblue;
+}
+
+.info {
+	color: lightgray;
+	font-size: 1.2rem;
+	font-weight: lighter;
+}
+
+.thumbnail {
+	border: 2px solid green;
+}
