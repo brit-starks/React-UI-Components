@@ -1,11 +1,15 @@
 /* All styles for your Card Components live here */
 
-.headerContainer {
-	border: 2px solid red;
+.appContainer {
 	width: 70%;
-	display: flex;
+	border: 2px solid black;
 }
 
+.headerContainer {
+	border: 2px solid red;
+	width: 85%;
+	display: flex;
+}
 
 .headerContent {
 	border: 2px solid blue;
@@ -23,10 +27,24 @@
 	border: 2px solid green;
 }
 
+.cardContainer {
+	width: 85%;
+	border: 2px solid purple;
+}
+
 .cardContent {
+	box-sizing: border-box;
+	width: 83.3%;
 	border: 2px solid gray;
+	margin: 0 0 0 8.6rem;
+	padding: 0 0 0 3rem;
 }
 
 .reactWebsite {
 	color: gray;
+}
+
+#mid-img {
+	width: 83%;
+	margin: 0 0 0 8.7rem;
 }
