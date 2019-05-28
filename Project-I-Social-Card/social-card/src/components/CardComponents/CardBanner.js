@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import Logo from '../images/calculator-component.png';
 
 const CardBanner = props => {
 	return (
