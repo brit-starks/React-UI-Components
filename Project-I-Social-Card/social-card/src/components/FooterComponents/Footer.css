@@ -1,0 +1,10 @@
+.footer {
+  margin: 2rem 0 0 5.3rem;
+}
+
+.footerImg {
+ margin: 0 5rem 0 0;
+ height: 2rem; 
+  flex-direction: row;
+  color: lightgray;
+}
