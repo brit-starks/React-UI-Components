@@ -6,23 +6,28 @@ import ActionButton from '../ButtonComponents/ActionButton';
 const CalculatorDisplay = props => {
   return (
     <>
-    <div className="calcNumber">
-      <NumberButton number="1"/>
-      <NumberButton number="2" />
-      <NumberButton number="3" />
-      <NumberButton number="4" />
-      <NumberButton number="5" />
-      <NumberButton number="6" />
-      <NumberButton number="7" />
-      <NumberButton number="8" />
-      <NumberButton number="9" />
-      <NumberButton number="" />
+    <div className="numButtons">
+      <div className="numRowOne">
+        <NumberButton number="1"/>
+        <NumberButton number="2" />
+        <NumberButton number="3" />
+        <div className="numRowTwo">
+        <NumberButton number="4" />
+        <NumberButton number="5" />
+        <NumberButton number="6" />
+        <div className="numRowThree">
+        <NumberButton number="7" />
+        <NumberButton number="8" />
+        <NumberButton number="9" />
+      </div>
       <div className="calcAction">
         <ActionButton action="/" />
         <ActionButton action="x" />
         <ActionButton action="-" />
         <ActionButton action="+" />
         <ActionButton action="=" />
+        </div>
+        </div>
       </div>
     </div>
     </>

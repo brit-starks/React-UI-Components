@@ -1,0 +1,16 @@
+.numButtons {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.numRowOne {
+  display: flex;
+}
+
+.numRowTwo {
+  display: flex;
+}
+
+.numRowThree {
+  display: flex;
+}
