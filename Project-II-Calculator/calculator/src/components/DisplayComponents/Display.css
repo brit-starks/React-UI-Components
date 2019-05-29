@@ -1,18 +1,18 @@
 .calcAction {
-  margin: 4.2rem 0 0 0;
+  margin: 10.34rem 0 0 0;
   height: 30rem;
 }
 
 .buttons {
-  width: 35.5%;
-  height: 34.2rem;
+  width: 26.8%;
+  height: 40.3rem;
   display: flex;
   border: 2px solid gray;
-  margin: 2rem 0 0 0;
+  margin: 5rem 0 0 0;
 }
 
 .numButtons {
-  height: 28.3rem;
+  height: 40.3rem;
   display: flex;
   flex-direction: column-reverse;
 }

@@ -1,20 +1,42 @@
 .actionButton {
   box-sizing: border-box;
-  background: firebrick;
-  color: white;
-  font-size: 2rem;
   width: 6.7rem;
   height: 6rem;
   margin: 0;
   padding: 1.2rem 0 0 0;
-  text-align: center;
   border: 1px solid gray;
+  background: firebrick;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 .number {
-  height: 5rem;
-  width: 6rem;
-  padding: 1rem 0 0 0;
-  text-align: center;
+  height: 4rem;
+  width: 5rem;
+  padding: 2rem 1rem;
   border: 1.5px solid gray;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clear {
+  box-sizing: border-box;
+  margin: 3px 0 0 0;
+  padding: 1rem 0 1rem 6rem;
+  border-top: 2px solid gray;
+  color: gray;
+  font-size: 3rem;
+}
+
+.zero {
+  width: 18.4rem;
+  margin: 2rem 0 0 0;
+  padding: 1.5rem 0;
+  /* border: 2px solid gray; */
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
