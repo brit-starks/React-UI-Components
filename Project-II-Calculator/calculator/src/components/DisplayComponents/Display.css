@@ -1,9 +1,18 @@
+.calcAction {
+  margin: 4.2rem 0 0 0;
+  height: 30rem;
+}
+
 .buttons {
+  width: 35.5%;
+  height: 34.2rem;
   display: flex;
+  border: 2px solid gray;
+  margin: 2rem 0 0 0;
 }
 
 .numButtons {
-  width: 26%;
+  height: 28.3rem;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -11,15 +20,12 @@
 .numRowOne {
   height: 6rem;
   display: flex;
-  background: blue;
 }
 
 .numRowTwo {
   display: flex;
-  background: purple;
 }
 
 .numRowThree {
   display: flex;
-  background: midnightblue;
 }

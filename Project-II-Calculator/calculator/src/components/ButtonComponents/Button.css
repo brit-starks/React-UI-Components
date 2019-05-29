@@ -1,15 +1,10 @@
-.button {
-  display: flex;
-  width: 40%;
-}
-
 .actionButton {
   box-sizing: border-box;
   background: firebrick;
   color: white;
   font-size: 2rem;
   width: 6.7rem;
-  height: 5rem;
+  height: 6rem;
   margin: 0;
   padding: 1.2rem 0 0 0;
   text-align: center;
@@ -21,5 +16,5 @@
   width: 6rem;
   padding: 1rem 0 0 0;
   text-align: center;
-  border: 1px solid gray;
+  border: 1.5px solid gray;
 }
