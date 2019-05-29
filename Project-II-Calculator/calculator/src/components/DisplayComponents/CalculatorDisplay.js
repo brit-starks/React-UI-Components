@@ -4,10 +4,11 @@ import NumberButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
 import ClearButton from '../ButtonComponents/ClearButton';
 import Zero from '../ButtonComponents/Zero';
+import OutputDisplay from '../OutputDisplay';
 
 const CalculatorDisplay = props => {
   return (
-    <>
+    <div className="calculator">
     <div className="buttons">
       <div className="numButtons">
         <div className="zero-btn">
@@ -41,7 +42,11 @@ const CalculatorDisplay = props => {
         <ActionButton action="=" />
       </div>
     </div>
-    </>
+
+    <div className="output">
+      <OutputDisplay />
+    </div>
+    </div>
   );
 }
 

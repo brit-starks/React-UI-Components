@@ -1,0 +1,19 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/DisplayComponents/Display.css":
+/*!*********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/DisplayComponents/Display.css ***!
+  \*********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".calcAction {\r\n  margin: 6.39rem 0 0 0;\r\n  height: 30rem;\r\n}\r\n\r\n.buttons {\r\n  width: 30%;\r\n  height: 40.3rem;\r\n  background: darkgray;\r\n  display: flex;\r\n  border: 2px solid gray;\r\n  margin: 5rem 0 0 0;\r\n}\r\n\r\n.numButtons {\r\n  height: 40.3rem;\r\n  display: flex;\r\n  flex-direction: column-reverse;\r\n}\r\n\r\n.numRowOne {\r\n  height: 6rem;\r\n  display: flex;\r\n}\r\n\r\n.numRowTwo {\r\n  display: flex;\r\n}\r\n\r\n.numRowThree {\r\n  display: flex;\r\n}", ""]);
+
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.c50e2eb025c6cf227bf1.hot-update.js.map
